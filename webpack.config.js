@@ -16,6 +16,7 @@ module.exports = {
   entry: "iconv-lite",
   devtool: "source-map",
   mode: "production",
+  target: "node",
   output: {
     path: path.resolve(__dirname, "lib"),
     filename: "iconv-lite-umd.js",
